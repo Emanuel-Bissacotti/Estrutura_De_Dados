@@ -96,7 +96,7 @@ int main() {
 
 	inicializacao(&normal);
 	inicializacao(&prioritaria);
-    
+
     int acao = 0;
     int fichap = 1000;
     int fichan = 1;
@@ -104,7 +104,7 @@ int main() {
     int verdade = 1;
 
     while(verdade){
-        printf("\n\n1-prioritario\n2-normal\n3-atender\n4-sair");
+        printf("\n\n1-prioritario\n2-normal\n3-atender\n4-sair\n\n");
         scanf("%d", &acao);
 
         switch (acao){
