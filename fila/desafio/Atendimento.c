@@ -125,6 +125,14 @@ int main() {
                 printf("Ficha numero %d", removerFila(&prioritaria));
                 contador++;
             }
+            else if(contarFila(normal) != 0){
+                printf("Ficha numero %d", removerFila(&normal));
+                contador++;
+            }
+            else if(contarFila(prioritaria) != 0){
+                printf("Ficha numero %d", removerFila(&prioritaria));
+                contador++;
+            }
             else{ 
                 printf("Não possui fila\n");
             }
